@@ -1,0 +1,67 @@
+@bg-1:#c7f5fc;
+@bg-2:#EDEEF2;
+@bg3:rgb(0, 167, 167);
+@m30:30px;
+@radius130:130px;
+@m100:100px;
+@white:white;
+@none:none;
+body{
+    font-family:  Roboto, sans-serif;
+}
+
+.who-we{
+    background-color: @bg-1;
+    border-radius: @m30;
+    .col-radius{
+        border-bottom-left-radius: @m30;
+        border-bottom-right-radius: @m30;
+    }
+}
+.business-outcome {
+    img{
+        margin-top:-15px;
+    }
+    li{
+        margin-bottom: @m30/4;
+    }
+    @media screen and (max-width:400px) {
+            img{
+                width: 250px;
+            }
+        }
+}
+#make-every-second-count{
+background-color: @bg-2;
+border-top-left-radius: @radius130;
+border-bottom-right-radius: @radius130;
+}
+#business-benefit-section{
+margin-bottom: @m100*2;
+}
+.business-benefit{
+    margin-top: @m100;
+}
+.footer-class{
+    color:@white;
+    background-color: @bg3;
+    margin-top: @m100;
+}
+.horizontal-icons-list{
+    li{
+        list-style: @none;
+        display: inline-block;
+        margin-right: @m30;
+    }
+}
+.vertical-links-list{
+    list-style: @none;
+    li{
+        margin-bottom: @m30/3;
+    }
+}
+a{
+    color: @white;
+    text-decoration: @none;
+}
+
